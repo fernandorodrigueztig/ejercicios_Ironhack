@@ -51,22 +51,22 @@ function turnRight(rover){
   console.log("turnRight was called!");
   switch (roverdirection) {
 		case "N":
-      turn = "right";
+      t			turn = "right";
 			roverdirection = "E";
 			break;
 
 		case "E":
-      turn = "right";
+      			turn = "right";
 			roverdirection = "S";
 			break;
 
 		case "S":
-      turn = "right";
+      			turn = "right";
 			roverdirection = "W";
 			break;
 
 		case 'W':
-      turn = "right";
+      			turn = "right";
 			roverdirection = "N";
 			break;
 	}
@@ -168,3 +168,5 @@ function commands(turnRight) {
 	}
   console.log(commands)
 }
+
+
